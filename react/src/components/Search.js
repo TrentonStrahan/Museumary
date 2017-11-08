@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
+<<<<<<< HEAD
 import style from './../Header.css';
+=======
+>>>>>>> e179f5cd6879af2be90c39296b067379fe94b824
 
 class Search extends React.Component {
     constructor() {
@@ -36,6 +39,7 @@ class Search extends React.Component {
         }
         else {
             return (
+
                 <div class="input-group">
                     <input 
                         type="text" 
@@ -49,6 +53,7 @@ class Search extends React.Component {
                       <button class="btn btn-default" type="submit">
                         <i class="glyphicon glyphicon-search"></i>
                       </button>
+
                     </div>
                 </div>
             );
